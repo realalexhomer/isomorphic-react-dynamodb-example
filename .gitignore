@@ -1,7 +1,6 @@
 # Logs
 logs
 *.log
-npm-debug.log*
 
 # Runtime data
 pids
@@ -17,7 +16,6 @@ coverage
 # Grunt intermediate storage (http://gruntjs.com/creating-plugins#storing-task-files)
 .grunt
 
-
 # Compiled / build
 public/main.js
 public/main.css
@@ -29,6 +27,7 @@ public/main.css
 build/Release
 
 # Dependency directory
+
 # https://docs.npmjs.com/misc/faq#should-i-check-my-node-modules-folder-into-git
 node_modules
 
@@ -37,3 +36,12 @@ node_modules
 
 # Optional REPL history
 .node_repl_history
+
+# css
+*.css
+*.map
+
+# Ds store
+
+.DS_Store
+
