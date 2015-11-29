@@ -1,0 +1,16 @@
+.match {
+	display: block;
+	.match-id {
+		display: inline-block;
+		color: black;
+		background: black;
+	}
+	&.spoiled {
+		.match-id {
+			background: white;
+		}
+	}
+	.spoil-button {
+		cursor: pointer;
+	}
+}
