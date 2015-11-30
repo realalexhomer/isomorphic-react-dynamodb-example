@@ -18,5 +18,3 @@ subsequent mounting on the client where new data is needed.
 Yes this is solvable without much code (check out the repo), but I don't believe it is worth doing this to yourself as the data layer of
 your application is going to get messy. With all of the complexities the issue introduces a solution like Fletchr starts to make a lot of
 sense.
-
-The package.json is extremly long and preserves a history of all of the libraries that I tried to use to make this work.
